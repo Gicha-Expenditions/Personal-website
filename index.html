@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website</title>
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="header">
+    <a href="#" class="logo">Anthony <span>Karanja</span></a>
+    <i class="bx bx-menu" id="menu-icon"></i>
+    <nav class="navbar">
+        <a href="#home" class="active">Home</a>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+<section class="home" id="home">
+    <div class="home-content">
+        <h3>Hello World, It's Me</h3>
+        <h1>Anthony Karanja</h1>
+        <h3>And I'm a <span class="multiple-text">Frontend Developer</span></h3>
+        <p>I specialize in creating beautiful, responsive and user-friendly websites and applications. 
+            With a strong foundation in HTML, CSS and JavaScript, along with experience in frameworks like 
+            React, I strive to bring design concepts to life with clean and efficient code. My goal is to 
+            enhance the user experience by building intuitive and accessible interfaces. LET'S COLLABORATE 
+            TO MAKE THE WEB A MORE ENGAGING PLACE! <br>
+            <span class="mine">Turning Ideas Into Digital Reality</span>
+        </p>
+             <div class="social-media">
+                <a href="https://www.facebook.com/profile.php?id=61556694549804"><i class="bx bxl-facebook"></i></a>
+                <a href="https://www.instagram.com/nyeriankhan?igsh=MXBieHViOGU5ZzRpNw=="><i class="bx bxl-instagram-alt"></i></a>
+<a href="https:www.linkedin.com/in/anthony-karanja-b7049231b?utm_source=share&utm_
+campaign=via&utm_content=profile&utm_medium=android_app">
+                    <i class="bx bxl-linkedin"></i></a>
+                    <a href="https://www.tiktok.com/@nyeriankhan1?_t=8olSfaTZP4n&_r=1"> <i><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAa1JREFUSEu11btrFVEQx/FPUJCAhSCChVaRKKKNjWihlSGFWEeIb7S0E0R7tbILIY34iMEiBCxthGhjpaAIio8/wUZERVHPwFk4LHuX3Xu9BxZ275kz35nzm5k7YcxrYsz+DQO4j1M5sPfY0xbkqIA/2IKvgyCjAsLvNdz8n4B7OF04/I7jeNoEGSaDOiD8/sZDrOIj3lWwYQClyE1Bx/6ZUQBlBj+xARsLUuyf7QLYhovYi624jpcoAZ9wDDfStcxlp50AF7CQqmNTEVnU/nIDYFe2mcSO/P6hLYOTWGm43ApQahAZVIDGSq2LHFF8xvbCOprpDW6lrn3UkkEnwCUsFZZRepfT86UmYtUHvTN4nIQ8kZ1FLYfAf2uh1UXudUWvsT87vItzDXk/SM00X4g53WfYvcDBfOAVDjQcjsx259+f4WgfQAytq8WBI3hefM/gSfF9B1HSA1e9iiLdt0VnfsNtRCXtxPmap0OIrDsDwrBeSYMOR9NVfzy9AGEcIi5i84CT6yny2XSdP9qij722aTqFKzicxvC+NIt+YS2DQ9xOa5hx3clxZTR2wD+bkU0Zzdt3lwAAAABJRU5ErkJggg=="/></i></a>
+                    <a href="https://wa.me/+254758299928"> <i><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAi9JREFUSEvN1UnITnEUBvDfx8JMdoREiChThg1JmVI2hqIUiTInZcGGYiE2xpQSxUKxUJJZSCFiY0ghsjKkKGS+R+f7ent77/vafPWd1e3e8z/P/zznOc9t0srR1Mr1tQmAsViAyRiCX7iFO7iAB/VYqNdBPxzGDHzOQk/wDaMxEj2wG1vwvRZQGUDc9Bo6YAOO40+NAmsT4AXm4VF1Ti2AXriXVEzF8wZCGFF0dAbtMBxfKvNrAZzDeIzDy4KmPuiGp3WAAuQ+jmBlPYBJuIFlmTwsu3mHASU0NdfbjB2YjkvNL6s72Iel6FkM7kfR7ibszOQY9sU6XXRKMQRdc8sAHuI15mTCKhzI5wA+2mAecT5iVBnAm4L/mMGKTOidc/iIkO3PBgCHsAjdywCe5bAWVhQKKe7FQaxpMIegcz06lgGcT/4nVN30ZG5z8BuAnZOuUM2pomh0GBF5YzC4DGB7DrYv3laAtC+A92A1PvHPw0K6EbvyTOzBe5zG8jKAgblY24qErTX4npZ0Dc1vvzEzZRncn0hraVFbrUULJYShhcmVRdAQg3yVIuiPuwivmlJ5qBqgS/IZ+7CxgWKaP0fxywkY2x8yb4lqgNk4W9C0GNF+bOXtYouP4WsVYMxpCdalssK3Gprd/hxkc604MCit+HrSEa4aXjUxk27m9tc0xeoOwkMi8SquFJL8UNhx1+Jm84sfzCyEfMNGHqdnhUSD+9JoE7/M/5x17bRW7+Av0jpxGTt6Zt0AAAAASUVORK5CYII="/></i></a>
+                    <a href="t.me/anthonykaranja"> <i><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAblJREFUSEvV1TtoVEEYxfFflKCFBhEhhQTxAakEBUUI0YiFdoKigkUSHynEVsEU6RIiBOxCxEItVXygoIWVIBLBThBMEwgqpAiIYGEQfNwPZuVy2bsvs4hT7e7MnP835zsz26HNo6PN+v5LwD5sw51wZ6VOsAGDOIdd+IquvwWswhGcwTF05vr5AVtaBWzHeQxhcxJdxM/c94c40QxgHU4mC/pzlf7CDJ4mz8OqGFcw1QhgP84m8YDkx/sE3IQHWJObPIQXZYA49nAS3lHlnnzPxK5iEqdxC9GPygirophvRcAeTOBwjXS9Tv5H9WMYr1LAO+ys/J6P6VzmY2/JzY7YjeJ6mp/GxZK1NzFSDbA6820g+R2x606LnuFCtulTiuJdHK/xxMTaG9UA+T3h6UFEKh6lifXZJXqMaGCtERftbT1AUSCa9hK764gvpwb/aBawF2/qiMf0K0S0/4xG36JI1vO06zM2lsCu4XIrgFO4h0jaARxFJGltARTr7rcCiGRcQh+WkkBk/Qm25gTj80IrgBD7iC+FiuNJvp1iGzHuKVrXaA/q9Tf+C+azV2C2XYDSAlbqBP8O8BtHxEAZRG4wGQAAAABJRU5ErkJggg=="/></i></a>
+<a href="https://youtube.com/@nyeriankhan?si=xARc1_J6tPCm3w6t"> <i><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAVdJREFUSEvt1T1LHUEUxvHfVQvFF0QFEZQUCpIiRWws06URLPwCFoKF+iVEWxvBKiB+Bb9CuhhQtDGmsBBJoYKIFgHxZQd2YR3u3bmQ3EK40+3OOc//zHnO7Na0eNVarK8NSHY4btEYNjCFcUwmFXjBKa5xhnX8KfLKgGn8RH8TolUhd5jBeQgqA/aw+I/iRfoulmLAIT7/J8ABZmPADYYbAEKf57Cd+5Oq4wIfYsATOhpkPmfmd6ILa/kg9FVQbrNihsqAXjxUJIQTlOEjGWwzm5blyMdC4h4DZUCo7LECEE4XYoqVAvxFT9yiUGWjVQACZCWf9cGK+CuMxoDQotCqeisAFrI7stWkyb/wMQYE5ydS49Hk/nd8iQH7mG9SIBX2LR+ANzf5E34U5qQUEvvhU3EUnyA8h5u8istc4Gv+rruOYPDsJJq+39jBcRHf/uEkrXr/LXoFaFYyGbiLAxQAAAAASUVORK5CYII="/></i></a>
+             </div>
+             <a href="https://myprofily.com/web_api/resume/view/54658/PDF/7" class="btn">Download CV</a>
+    </div>
+    <div class="home-img">
+        <img src="Images/TONNIE.jpg" alt="">
+    </div>
+</section>
+
+<section class="about" id="about">
+    <div class="about-img">
+        <img src="Images/TONNY.jpg" alt="">
+    </div>
+    <div class="about-content">
+        <h2 class="heading">About <span>Me</span></h2>
+        <h3>Frontend Developer!</h3>
+        <p>I'm Anthony Karanja, a passionate Frontend Developer with over 70 projects completed 
+            successfully. I specialize in HTML, CSS, and JavaScript, with expertise in modern
+             frameworks like React. I thrive on crafting seamless user experiences that are both visually 
+             appealing and highly functional.</p>
+        <p>My skill set includes performance optimization, cross-browser compatibility and version control 
+            with Git. I believe in continuous learning and staying up-to-date with the latest
+             industry trends. When I'm not coding, I enjoy contributing to open-source projects, participating in 
+             coding challenges, and exploring new tech innovations. LET'S CONNECT AND BRING YOUR DIGITAL VISIONS 
+             TO LIFE! 
+        </p>
+              <a href="#" class="btn">Read More</a>
+    </div>
+</section>
+<section class="services" id="services">
+    <h2 class="heading">Our <span>Services</span></h2>
+
+    <div class="services-container">
+        <div class="services-box">
+        <i class="bx bx-code-alt"></i>
+        <h3>Responsive Web Design</h3>
+        <p>I create visually stunning and highly functional websites that look great on any device, from desktops to 
+ smartphones. By utilizing modern design principles, frameworks and tools like Bootstrap and CSS Grid, I ensure a 
+         seamless and consistent user experience across all screen sizes. My designs are focused on both
+             aesthetics and usability, making sure that your site is accessible and engaging for all users.
+        </p>
+              <a href="#" class="btn">Read More</a>
+            </div>
+
+
+            <div class="services-box">
+                <i class="bx bxs-paint"></i>
+                <h3>Cross-Browser Compatibility</h3>
+                <p>I ensure your website works flawlessly across all major browsers and platforms. Through 
+                    rigorous testing and debugging, I make sure that every user has a constitent experience, 
+                    regardless of their choice of browser. This includes addressing browser-specific quirks 
+                    and implementing fallbacks for older browsers, ensuring your web presence is reliable
+                     and professional.
+                </p>
+                      <a href="#" class="btn">Read More</a>
+                    </div>
+
+
+                    <div class="services-box">
+                        <i class="bx bx-bar-chart-alt"></i>
+                        <h3>Frontend Consulting</h3>
+                        <p>I offer expert consulting services to help you make informed decisions about 
+         your frontend architecture and technology stack. Whether you're starting a new project or looking to optimize 
+         an existing one, I provide guidance on best practices,performance improvements and the latest trends in frontend
+          development. My goal is to help you achieve your objectives efficiently and effectively, ensuring your 
+          project is built on a solid foundation.
+        </p>
+                              <a href="#" class="btn">Read More</a>
+                            </div>
+    </div>
+</section>
+
+
+<section class="portfolio" id="portfolio">
+    <h2 class="heading">Latest <span>Projects</span></h2>
+    <div class="portfolio-container">
+        <div class="portfolio-box">
+            <img src="Images/1000107252.jpg" alt="">
+            <div class="portfolio-layer">
+                <h4>Web Design</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum,
+                     necessitatibus ad nobis a unde voluptas nesciunt ipsum minus molestias
+                      tempora alias porro exercitationem, 
+                    adipisci eveniet placeat, repudiandae voluptatum quos quae.</p>
+                    <a href="#"><i class="bx bx-link-external"></i></a>
+            </div>
+        </div>
+
+            <div class="portfolio-box">
+                <img src="Images/1000147412.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Web Design</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum,
+                         necessitatibus ad nobis a unde voluptas nesciunt ipsum minus molestias
+                          tempora alias porro exercitationem, 
+                        adipisci eveniet placeat, repudiandae voluptatum quos quae.</p>
+                        <a href="#"><i class="bx bx-link-external"></i></a>
+                </div>
+            </div>
+
+         
+                <div class="portfolio-box">
+                    <img src="Images/1000134891.jpg" alt="">
+                    <div class="portfolio-layer">
+                        <h4>Web Design</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum,
+                             necessitatibus ad nobis a unde voluptas nesciunt ipsum minus molestias
+                              tempora alias porro exercitationem, 
+                            adipisci eveniet placeat, repudiandae voluptatum quos quae.</p>
+                            <a href="#"><i class="bx bx-link-external"></i></a>
+                    </div>
+                </div>
+     </div>
+    </div>
+</section>
+<section class="contact" id="contact">
+    <h2 class="heading">Contact <span>Me!</span></h2>
+    <p><center><h3 class="num">0758299928 / 0754292465</h3></center></p>
+    <form action="#">
+        <div class="input-box">
+            <input type="text" placeholder="Full Name">
+            <input type="email" placeholder="Email Address">
+        </div>
+        <div class="input-box">
+            <input type="number" placeholder="Phone Number">
+            <input type="email" placeholder="Email Subject">
+        </div>
+        <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+        <input type="submit" value="Send Message" class="btn">
+    </form>
+</section>
+<footer class="footer">
+    <div class="footer-text">
+        <p>Copyright &copy; 2024 by AnthonyKaranja, All Rights Reserved.</p>
+    </div>
+    <div class="footer-icontop">
+        <a href="#home"><i class="bx bx-up-arrow-alt"></i></a>
+    </div>
+</footer>
+
+
+
+
+
+
+
+<script src="https://unpkg.com/scrollreveal"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+
+   <script src="script.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
